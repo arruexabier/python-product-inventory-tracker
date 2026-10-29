@@ -1,0 +1,18 @@
+{
+    "site_name": "Books to Scrape",
+    "start_url": "https://books.toscrape.com/catalogue/page-1.html",
+    "selectors": {
+        "product_card": "article.product_pod",
+        "product_link": "h3 a",
+        "product_price": "p.price_color",
+        "availability": "p.availability",
+        "rating": "p.star-rating",
+        "next_page": "li.next a",
+        "detail_title": ".product_main h1",
+        "detail_rows": "table.table-striped tr",
+        "detail_label": "th",
+        "detail_value": "td",
+        "breadcrumb_links": "ul.breadcrumb li a",
+        "description": "#product_description + p"
+    }
+}
